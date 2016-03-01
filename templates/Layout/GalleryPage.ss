@@ -1,10 +1,10 @@
-    
+
     	<div class="typography">
-        
+
             <h2>$Title</h2>
             $Content
             $Form
-           
+
            <div id="galleryArea">
            <% loop getGalleryImages %>
            <div class="galleryItem">
@@ -17,17 +17,17 @@
            </div>
            <% end_loop %>
            	<div class="clear"></div>
-            
+
             <div id="GalleryPageShade" style="display: none;"></div>
             <div id="GalleryPopup" style="display: none;">
                 <div id="GalleryPopupInner">
                     <p class="PopupClose">Close</p>
                     <div id="GalleryLoadArea">
                     </div>
-                </div>	
+                </div>
             </div>
-    
-    
+
+
 			</div>
 
 		</div>
